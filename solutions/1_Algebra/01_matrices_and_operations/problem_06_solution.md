@@ -13,8 +13,6 @@ A^T=\begin{pmatrix}
 \end{pmatrix}.
 $$
 
-
-
 $$
 AB=\begin{pmatrix}
 1+4-3 & 0+2+9 \\
@@ -24,8 +22,6 @@ AB=\begin{pmatrix}
 8 & 23 \\
 \end{pmatrix}.
 $$
-
-
 
 $$
 (AB)^T=\begin{pmatrix}

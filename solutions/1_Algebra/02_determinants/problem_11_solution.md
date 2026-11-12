@@ -30,8 +30,6 @@ $$
 \end{pmatrix}
 $$
 
-
-
 $$
 \det A=1\cdot1\cdot1=1.
 $$

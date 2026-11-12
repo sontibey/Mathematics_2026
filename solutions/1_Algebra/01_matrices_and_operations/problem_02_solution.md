@@ -12,8 +12,6 @@ A+B=\begin{pmatrix}
 \end{pmatrix}.
 $$
 
-
-
 $$
 3A-2B=\begin{pmatrix}
 3 & 6 \\

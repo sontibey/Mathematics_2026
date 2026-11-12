@@ -16,8 +16,6 @@ Ab_1=\begin{pmatrix}
 \end{pmatrix}.
 $$
 
-
-
 $$
 AB=\begin{pmatrix}
 -1 & 2 \\

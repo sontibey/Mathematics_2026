@@ -12,8 +12,6 @@ Sx=\begin{pmatrix}
 \end{pmatrix}.
 $$
 
-
-
 $$
 Rx=\begin{pmatrix}
 -2 \\

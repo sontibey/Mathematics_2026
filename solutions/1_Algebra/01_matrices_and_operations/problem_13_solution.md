@@ -10,8 +10,6 @@ F^2=\begin{pmatrix}
 \end{pmatrix}.
 $$
 
-
-
 $$
 F^4=\begin{pmatrix}
 5 & 3 \\
@@ -30,8 +28,6 @@ f_{n+1} & f_n \\
 f_n & f_{n-1} \\
 \end{pmatrix}\qquad(n\ge1).
 $$
-
-
 
 $$
 F\begin{pmatrix}

@@ -9,8 +9,6 @@ AI=IA=A+0=\begin{pmatrix}
 \end{pmatrix}.
 $$
 
-
-
 $$
 A^2=\begin{pmatrix}
 4 & 4 \\
