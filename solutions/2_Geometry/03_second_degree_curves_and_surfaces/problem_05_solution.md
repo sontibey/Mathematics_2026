@@ -1,5 +1,17 @@
 # Exercise 5. Hyperbola and Asymptotes
 
+## Question
+
+For
+
+$$
+\frac{x^2}{16}-\frac{y^2}{9}=1,
+$$
+
+find the intercepts with the $x$-axis, the asymptotes, and make a sketch. Explain why the asymptotes describe the behavior of the curve far from the center.
+
+## Solution
+
 Setting $y=0$ gives vertices $(\pm4,0)$. There are no $y$-axis intercepts. Dropping the constant from the dominant quadratic terms gives the asymptotes $y=\pm3x/4$.
 
 $$

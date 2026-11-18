@@ -1,5 +1,17 @@
 # Exercise 9. A Logarithm and the Chain Rule
 
+## Question
+
+For
+
+$$
+f(x)=\ln(x^2+1)
+$$
+
+compute the derivative. Then determine the sign of $f'(x)$ for $x<0$, $x=0$, and $x>0$, and describe qualitatively how the function behaves around zero.
+
+## Solution
+
 The logarithm argument $x^2+1$ is positive for every real $x$, and the chain rule gives
 
 $$

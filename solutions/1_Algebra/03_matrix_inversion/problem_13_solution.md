@@ -1,5 +1,30 @@
 # Exercise 13. Undoing a Composite Transformation
 
+## Question
+
+The matrices
+
+$$
+S=
+\begin{pmatrix}
+2 & 0 \\
+0 & 1 \\
+\end{pmatrix},\qquad H=
+\begin{pmatrix}
+1 & 1 \\
+0 & 1 \\
+\end{pmatrix}
+$$
+
+describe nonuniform scaling and shear. For $T=HS$, find $T^{-1}$ in two ways:
+
+1. first compute $T$, then its inverse,
+2. use $(HS)^{-1}=S^{-1}H^{-1}$.
+
+Compare the results. Additionally compute $H^{-1}S^{-1}$ and verify that the incorrect order gives a different matrix. Explain the rule: “when undoing a composition of operations, we undo them from the end.”
+
+## Solution
+
 $$
 T=HS=\begin{pmatrix}
 2 & 1 \\

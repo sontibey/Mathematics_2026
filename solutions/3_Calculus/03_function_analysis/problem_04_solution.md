@@ -1,5 +1,17 @@
 # Exercise 4. A Function with Two Vertical Asymptotes
 
+## Question
+
+Analyze
+
+$$
+f(x)=\frac1{x^2-1}.
+$$
+
+Determine the domain, asymptotes, sign, and monotonicity on the intervals of the domain. Explain why each interval must be analyzed separately.
+
+## Solution
+
 The domain excludes $x=\pm1$. There are no zeros. The function is positive on $(-\infty,-1)$ and $(1,\infty)$ and negative on $(-1,1)$. The horizontal asymptote is $y=0$.
 
 $$

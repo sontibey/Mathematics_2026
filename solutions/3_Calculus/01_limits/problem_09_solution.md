@@ -1,5 +1,17 @@
 # Exercise 9. One-Sided Limits and an Asymptote
 
+## Question
+
+Analyze the left-hand and right-hand limits of
+
+$$
+f(x)=\frac1{x-2}
+$$
+
+as $x\to2$. Does the two-sided limit exist? Interpret the result on a sketch of the graph and identify the vertical asymptote.
+
+## Solution
+
 $$
 \lim_{x\to2^-}\frac1{x-2}=-\infty,\qquad \lim_{x\to2^+}\frac1{x-2}=+\infty.
 $$

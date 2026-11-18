@@ -1,5 +1,17 @@
 # Exercise 3. A Rational Function
 
+## Question
+
+Analyze the domain, zeros, asymptotes, and monotonicity of
+
+$$
+f(x)=\frac{x+1}{x-2}.
+$$
+
+Finally, sketch a graph consistent with all the information obtained.
+
+## Solution
+
 $$
 f(x)=1+\frac3{x-2},\qquad f\prime(x)=-\frac3{(x-2)^2}<0.
 $$

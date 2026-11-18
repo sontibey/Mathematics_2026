@@ -1,5 +1,17 @@
 # Exercise 8. Two Exponential Functions
 
+## Question
+
+For
+
+$$
+f(x)=e^{2x-3}+5^x
+$$
+
+compute the derivative. Explain why the factor $2$ appears in the first term and why $\ln5$ appears in the second.
+
+## Solution
+
 $$
 f\prime(x)=2e^{2x-3}+5^x\ln5.
 $$

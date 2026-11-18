@@ -1,5 +1,23 @@
 # Exercise 14. Reconstructing Information from the Derivative
 
+## Question
+
+It is known that
+
+$$
+f'(x)=(x-1)(x+2).
+$$
+
+Determine the monotonicity and the locations of the extrema, and sketch a possible qualitative shape of the function. Then, for
+
+$$
+g(x)=\frac{x^3}{3}+\frac{x^2}{2}-2x
+$$
+
+verify that $g'(x)=(x-1)(x+2)$, and compare the specific graph with the earlier qualitative sketch.
+
+## Solution
+
 The derivative $(x-1)(x+2)$ is positive on $(-\infty,-2)$, negative on $(-2,1)$, and positive on $(1,\infty)$. Thus every such function increases, then decreases, then increases, with a local maximum at $x=-2$ and local minimum at $x=1$.
 
 $$

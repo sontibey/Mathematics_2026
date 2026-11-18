@@ -1,31 +1,27 @@
+# Exercise 12. A Normal Vector to a Plane
+
 ## Question
 
-For $A=(1,0,2)$, $B=(2,1,0)$, and $C=(0,3,1)$, construct two in-plane vectors, find a vector perpendicular to both, and check it with dot products.
+Given $A=(1,0,2)$, $B=(2,1,0)$, and $C=(0,3,1)$. Construct two vectors lying in the plane, find a vector perpendicular to both, and check the perpendicularity using dot products.
 
 ## Solution
 
-Two vectors in the plane are
+Subtract the same base point from the other two points to obtain in-plane directions:
 
 $$
-\overrightarrow{AB}=(1,1,-2),\qquad \overrightarrow{AC}=(-1,3,-1).
+p=B-A=(1,1,-2),\qquad q=C-A=(-1,3,-1).
 $$
 
-Their cross product is
+A vector perpendicular to both can be constructed by the cross product:
 
 $$
-\overrightarrow{AB}\times\overrightarrow{AC}=(5,3,4).
+n=p\times q=(1(-1)-(-2)(3),\ (-2)(-1)-1(-1),\ 1(3)-1(-1))=(5,3,4).
 $$
 
-Thus $n=(5,3,4)$ is a normal vector to the plane through the three points.
-
-The requested dot-product checks are
+This vector is nonzero, so the two directions are not parallel and the three points determine a plane. Check the two perpendicularity requirements:
 
 $$
-n\cdot\overrightarrow{AB}=5+3-8=0,
+n\cdot p=5+3-8=0,\qquad n\cdot q=-5+9-4=0.
 $$
 
-$$
-n\cdot\overrightarrow{AC}=-5+9-4=0.
-$$
-
-Both in-plane directions are perpendicular to $n$, which verifies that $n$ is a normal vector.
+Any vector between points of this plane is a combination of $p$ and $q$, and its dot product with $n$ is therefore zero. This explains why $n$ is normal to the whole plane. As an additional check, its equation is $5x+3y+4z=13$, satisfied by all three given points.

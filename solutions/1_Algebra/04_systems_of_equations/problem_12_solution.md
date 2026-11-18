@@ -1,5 +1,21 @@
 # Exercise 12. Homogeneous System
 
+## Question
+
+Solve
+
+$$
+\begin{cases}
+x+2y-z=0, \\
+2x+4y-2z=0, \\
+x-y+2z=0.
+\end{cases}
+$$
+
+Give all solutions in parametric form and explain why $(0,0,0)$ always satisfies a homogeneous system.
+
+## Solution
+
 Use $R_2\leftarrow R_2-2R_1$ to obtain a zero row, and $R_3\leftarrow R_3-R_1$ to obtain $-3y+3z=0$. Thus $y=z=s$ and the first equation gives $x=-s$.
 
 $$

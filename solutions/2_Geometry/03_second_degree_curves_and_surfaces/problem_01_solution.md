@@ -1,5 +1,29 @@
 # Exercise 1. Recognizing Curves from Canonical Form
 
+## Question
+
+Recognize the curves
+
+$$
+x^2+y^2=9,
+$$
+
+$$
+\frac{x^2}{16}+\frac{y^2}{9}=1,
+$$
+
+$$
+y^2=8x,
+$$
+
+$$
+\frac{x^2}{9}-\frac{y^2}{4}=1.
+$$
+
+For each one, identify the most important features and make a sketch. Explain which parts of the equation let you recognize the type of curve.
+
+## Solution
+
 **Circle:** $x^2+y^2=9$ has center $(0,0)$ and radius 3, with intercepts $(\pm3,0)$ and $(0,\pm3)$. Equal positive squared coefficients identify a circle.
 
 **Ellipse:** $x^2/16+y^2/9=1$ has center $(0,0)$, semiaxes 4 along $x$ and 3 along $y$, and intercepts $(\pm4,0),(0,\pm3)$. Both squared terms are positive but have different scales.

@@ -1,5 +1,13 @@
 # Exercise 3. A Box Made from Cardboard
 
+## Question
+
+From a $30\,\mathrm{cm}\times40\,\mathrm{cm}$ sheet, squares of side length $x$ are cut from the corners and the edges are folded up to form an open box.
+
+Write the volume as a function of $x$, determine the physically meaningful domain, and find the value of $x$ for which the volume is greatest.
+
+## Solution
+
 If $x$ is measured in centimeters, the box has height $x$ and base $(30-2x)\times(40-2x)$, hence
 
 $$

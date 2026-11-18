@@ -1,5 +1,21 @@
 # Exercise 2. Formula for a 2×2 Matrix
 
+## Question
+
+Find the inverse of
+
+$$
+A=
+\begin{pmatrix}
+3 & 2 \\
+5 & 4 \\
+\end{pmatrix}
+$$
+
+using the formula for a $2\times2$ matrix. At the end, check the result by computing one product with $A$.
+
+## Solution
+
 For $A$ with rows $(a,b),(c,d)$, the inverse is $(ad-bc)^{-1}$ times the matrix with rows $(d,-b),(-c,a)$, provided $ad-bc\ne0$. Here $\det A=12-10=2$, so
 
 $$

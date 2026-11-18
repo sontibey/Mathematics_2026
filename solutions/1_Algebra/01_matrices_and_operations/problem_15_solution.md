@@ -1,5 +1,30 @@
 # Exercise 15. Associativity and Calculation Paths
 
+## Question
+
+Given
+
+$$
+A=
+\begin{pmatrix}
+1 & 2 & 0 \\
+0 & 1 & 1 \\
+\end{pmatrix},\quad B=
+\begin{pmatrix}
+1 & 0 \\
+2 & 1 \\
+-1 & 3 \\
+\end{pmatrix},\quad C=
+\begin{pmatrix}
+2 & 1 \\
+0 & -1 \\
+\end{pmatrix}.
+$$
+
+Compute $(AB)C$ and $A(BC)$. Compare the results and the number of intermediate operations. Explain what associativity of matrix multiplication means in this example.
+
+## Solution
+
 For the first calculation path,
 
 $$

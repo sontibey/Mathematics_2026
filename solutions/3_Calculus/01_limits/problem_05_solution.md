@@ -1,5 +1,17 @@
 # Exercise 5. The Classical Limit Leading to the Number $e$
 
+## Question
+
+Compute
+
+$$
+\lim_{n\to\infty}\left(1+\frac1n\right)^n.
+$$
+
+Calculate several values for increasing $n$ and compare the observed behavior with the value of the limit. Explain why a few values do not constitute a proof.
+
+## Solution
+
 The limit is $e\approx2.718281828$. To justify it, for $u>0$ integrate $1/(1+t)$ on $[0,u]$ to obtain $u/(1+u)\le\ln(1+u)\le u$. Setting $u=1/n$ gives
 
 $$

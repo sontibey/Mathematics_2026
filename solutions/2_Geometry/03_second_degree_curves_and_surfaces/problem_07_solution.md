@@ -1,5 +1,18 @@
 # Exercise 7. Classifying a Second-Degree Equation
 
+## Question
+
+Determine the type of object described by:
+
+1. $4x^2+9y^2=36$,
+2. $x^2-y^2=1$,
+3. $x^2-4y=0$,
+4. $x^2+y^2+1=0$.
+
+In the last case, explain why there are no real points.
+
+## Solution
+
 1. Dividing by 36 gives $x^2/9+y^2/4=1$: an ellipse centered at the origin, with semiaxes 3 and 2.
 2. $x^2-y^2=1$ is a hyperbola with vertices $(\pm1,0)$ and asymptotes $y=\pm x$.
 3. $x^2=4y$ is an upward-opening parabola with vertex $(0,0)$ and axis $x=0$.

@@ -1,25 +1,35 @@
+# Exercise 6. Projection and Perpendicular Component
+
 ## Question
 
-Project $u=(4,2)$ onto $v=(1,1)$, compute the residual $r$, verify $r\cdot v=0$, and explain the result geometrically.
+Find the projection of $u=(4,2)$ onto the direction $v=(1,1)$. Then compute
+
+$$
+r=u-\mathrm{proj}_v\,u
+$$
+
+and verify that $r\cdot v=0$. Explain this result geometrically.
 
 ## Solution
 
-Using the projection formula,
+A projection onto the direction of $v$ has the form $p=\lambda v$. Its defining condition is that the residual $u-p$ be perpendicular to $v$, so
 
 $$
-\mathrm{proj}\,_v u=\frac{u\cdot v}{v\cdot v}v=\frac{6}{2}(1,1)=(3,3).
+(u-\lambda v)\cdot v=0,\qquad
+\lambda=\frac{u\cdot v}{v\cdot v}=\frac{4+2}{1+1}=3.
 $$
 
-Thus
+Therefore the parallel and residual parts are
 
 $$
-r=u-\mathrm{proj}\,_v u=(4,2)-(3,3)=(1,-1),
+p=\mathrm{proj}_v\,u=3(1,1)=(3,3),\qquad
+r=u-p=(4,2)-(3,3)=(1,-1).
 $$
 
-and the requested calculation is
+Two checks confirm the construction:
 
 $$
-r\cdot v=(1,-1)\cdot(1,1)=1-1=0.
+r\cdot v=1-1=0,\qquad p+r=(3,3)+(1,-1)=(4,2)=u.
 $$
 
-The projection $(3,3)$ is parallel to $v$, so it is the component of $u$ in the projection direction. Subtracting this parallel component leaves the perpendicular component $r$. The zero dot product verifies geometrically that $r$ is perpendicular to the direction $v$.
+The projection lies on the diagonal line $y=x$. The residual is the orthogonal displacement from that line to the endpoint of $u$. Thus the construction separates the original displacement into motion along the chosen direction and motion across it.

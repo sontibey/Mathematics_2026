@@ -1,5 +1,17 @@
 # Exercise 9. An Oblique Asymptote
 
+## Question
+
+Analyze the asymptotes of
+
+$$
+f(x)=\frac{x^2+1}{x-1}.
+$$
+
+Perform polynomial division and explain why the remainder term vanishes for large $|x|$.
+
+## Solution
+
 Polynomial division gives
 
 $$

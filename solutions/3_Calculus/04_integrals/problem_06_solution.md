@@ -1,5 +1,17 @@
 # Exercise 6. When Does a Logarithm Appear from an Integral?
 
+## Question
+
+Compute
+
+$$
+\int\frac{2x}{x^2+5}\,dx.
+$$
+
+Identify the denominator as a candidate for substitution, compare the numerator with its derivative, and explain the source of the logarithm in the result.
+
+## Solution
+
 Choose $u=x^2+5$, with $du=2x\,dx$. Then
 
 $$

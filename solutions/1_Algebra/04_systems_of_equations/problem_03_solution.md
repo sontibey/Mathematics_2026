@@ -1,5 +1,20 @@
 # Exercise 3. Inconsistent System
 
+## Question
+
+Solve or show that the system is inconsistent:
+
+$$
+\begin{cases}
+x+2y=3, \\
+2x+4y=7.
+\end{cases}
+$$
+
+Show how the contradiction appears in the matrix after elimination and interpret it in terms of equations.
+
+## Solution
+
 The operation $R_2\leftarrow R_2-2R_1$ gives
 
 $$

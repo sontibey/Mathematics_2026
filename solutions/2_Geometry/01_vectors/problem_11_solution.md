@@ -1,31 +1,41 @@
+# Exercise 11. Decomposition into Parallel and Perpendicular Components
+
 ## Question
 
-Decompose $u=(3,4)$ into components parallel and perpendicular to $v=(1,2)$, perform both requested checks, and explain why they are independent.
+Decompose $u=(3,4)$ into components parallel and perpendicular to $v=(1,2)$. Check
+
+$$
+u=u_{\parallel}+u_{\perp},\qquad u_{\perp}\cdot v=0.
+$$
+
+Explain why these are two independent checks of correctness.
 
 ## Solution
 
-The parallel component is the projection:
+Write the parallel component as $u_{\parallel}=\lambda v$. The perpendicular component is then forced to be $u_{\perp}=u-\lambda v$. Requiring its dot product with $v$ to vanish gives
 
 $$
-u_{\parallel}=\frac{u\cdot v}{v\cdot v}v=\frac{11}{5}(1,2)=\left(\frac{11}{5},\frac{22}{5}\right).
+(3-\lambda,4-2\lambda)\cdot(1,2)=11-5\lambda=0,
+\qquad \lambda=\frac{11}{5}.
 $$
 
-Subtracting it from $u$ gives
+Hence
 
 $$
-u_{\perp}=u-u_{\parallel}=\left(\frac45,-\frac25\right).
+u_{\parallel}=(11/5,22/5),\qquad
+u_{\perp}=(3-11/5,4-22/5)=(4/5,-2/5).
 $$
 
 The reconstruction check is
 
 $$
-u_{\parallel}+u_{\perp}=\left(\frac{15}{5},\frac{20}{5}\right)=(3,4)=u,
+u_{\parallel}+u_{\perp}=(15/5,20/5)=(3,4)=u.
 $$
 
-while the orthogonality check is
+The separate directional check is
 
 $$
-u_{\perp}\cdot v=\frac45-\frac45=0.
+u_{\perp}\cdot v=4/5+2(-2/5)=0.
 $$
 
-Reconstruction checks that no component of $u$ was lost; the dot product separately checks that the residual has the required perpendicular direction. Either condition alone would not establish both facts.
+Reconstruction alone allows arbitrary incorrect splits, while orthogonality alone does not require the two components to sum to $u$. Together with the explicit parallel form of $u_{\parallel}$, these conditions establish the required decomposition. A further length check gives $\|u\|^2=25=121/5+4/5$, the sum of the squared component lengths.

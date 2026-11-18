@@ -1,5 +1,17 @@
 # Exercise 1. A Cubic Polynomial
 
+## Question
+
+Analyze the monotonicity and extrema of
+
+$$
+f(x)=x^3-3x^2+2.
+$$
+
+Sketch the graph based on the results and mark the critical points.
+
+## Solution
+
 The domain is $\mathbb R$. Differentiate:
 
 $$

@@ -1,5 +1,21 @@
 # Exercise 12. Finding Inverses Without Starting from Scratch
 
+## Question
+
+It is known that
+
+$$
+A^{-1}=
+\begin{pmatrix}
+2 & -1 \\
+-3 & 2 \\
+\end{pmatrix}.
+$$
+
+Without finding $A$, compute $(3A)^{-1}$, $(A^T)^{-1}$, and $(A^2)^{-1}$. Justify each result using the appropriate property.
+
+## Solution
+
 Write $M=A^{-1}$. Scaling, transposition, and the product rule for inverses give
 
 $$

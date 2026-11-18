@@ -1,5 +1,23 @@
 # Exercise 12. Symmetry, Sign, and Absolute Value
 
+## Question
+
+Compare
+
+$$
+\int_{-2}^{2}x\,dx
+$$
+
+and
+
+$$
+\int_{-2}^{2}|x|\,dx.
+$$
+
+Before calculating, predict the results from symmetry and a sketch, then carry out the calculation and explain the difference.
+
+## Solution
+
 The odd function $x$ has canceling signed contributions on a symmetric interval, so its integral should be zero. The even nonnegative function $|x|$ gives two equal triangular areas, so its integral should be positive.
 
 $$

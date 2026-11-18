@@ -1,5 +1,21 @@
 # Exercise 11. A Parameter in a System of Three Equations
 
+## Question
+
+Analyze the number of solutions depending on $t$:
+
+$$
+\begin{cases}
+x+y+z=1, \\
+x+ty+z=2, \\
+x+y+tz=3.
+\end{cases}
+$$
+
+Use elimination and separately analyze the parameter values for which a standard calculation step ceases to be valid.
+
+## Solution
+
 Subtract equation 1 from equations 2 and 3:
 
 $$

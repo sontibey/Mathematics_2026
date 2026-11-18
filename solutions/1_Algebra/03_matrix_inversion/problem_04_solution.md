@@ -1,5 +1,21 @@
 # Exercise 4. Gauss–Jordan
 
+## Question
+
+Find $A^{-1}$ using the Gauss–Jordan method for
+
+$$
+A=
+\begin{pmatrix}
+1 & 2 \\
+3 & 5 \\
+\end{pmatrix}.
+$$
+
+Show the augmented matrix $[A\mid I]$ after successive operations and explain why obtaining $I$ on the left gives the inverse on the right.
+
+## Solution
+
 Start with the augmented matrix
 
 $$

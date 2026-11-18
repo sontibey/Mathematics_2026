@@ -1,5 +1,22 @@
 # Exercise 13. Determinant by Elimination
 
+## Question
+
+Compute the determinant
+
+$$
+A=
+\begin{pmatrix}
+1 & 2 & 3 \\
+2 & 5 & 7 \\
+1 & 0 & 2 \\
+\end{pmatrix}
+$$
+
+using elimination. Record the effect of every row operation used on the value of the determinant.
+
+## Solution
+
 Apply $R_2\leftarrow R_2-2R_1$; the determinant is unchanged:
 
 $$

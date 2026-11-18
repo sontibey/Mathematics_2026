@@ -1,5 +1,17 @@
 # Exercise 13. A Logarithm and an Asymptote
 
+## Question
+
+Perform a complete analysis of
+
+$$
+f(x)=\frac{\ln x}{x},\qquad x>0.
+$$
+
+Find the maximum and the behavior at the ends of the domain. Explain which information is necessary for a correct sketch.
+
+## Solution
+
 The domain is $(0,\infty)$ and the only zero is $x=1$. The function is negative for $0<x<1$ and positive for $x>1$.
 
 $$

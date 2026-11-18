@@ -1,5 +1,23 @@
 # Exercise 13. A Multi-Layer Composition
 
+## Question
+
+For
+
+$$
+f(x)=e^{\sin(x^2)}
+$$
+
+compute the derivative. First write the layers
+
+$$
+x\longrightarrow x^2\longrightarrow \sin(x^2)\longrightarrow e^{\sin(x^2)}
+$$
+
+and explain why differentiation moves through them in the reverse order.
+
+## Solution
+
 $$
 x\longrightarrow x^2\longrightarrow\sin(x^2)\longrightarrow e^{\sin(x^2)}.
 $$

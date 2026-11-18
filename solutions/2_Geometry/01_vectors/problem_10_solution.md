@@ -1,25 +1,37 @@
+# Exercise 10. Triangle Area from Vectors
+
 ## Question
 
-For $A=(0,0,0)$, $B=(2,1,0)$, $C=(1,3,2)$, use a cross product to find the parallelogram and triangle areas and explain the factor $1/2$.
+The points $A=(0,0,0)$, $B=(2,1,0)$, and $C=(1,3,2)$ form a triangle. Construct $\overrightarrow{AB}$ and $\overrightarrow{AC}$, compute the area of the parallelogram using the cross product, and then find the area of the triangle. Explain the factor $\frac12$.
 
 ## Solution
 
-The two sides from $A$ are
+Use two sides with the same starting vertex:
 
 $$
-\overrightarrow{AB}=(2,1,0),\qquad \overrightarrow{AC}=(1,3,2).
+p=\overrightarrow{AB}=(2,1,0),\qquad q=\overrightarrow{AC}=(1,3,2).
 $$
 
-Their cross product is
+The cross product records a perpendicular direction and has magnitude equal to the parallelogram area:
 
 $$
-\overrightarrow{AB}\times\overrightarrow{AC}=(2,-4,5),
+p\times q=(1(2)-0(3),\ 0(1)-2(2),\ 2(3)-1(1))=(2,-4,5).
 $$
 
-whose length is $\sqrt{4+16+25}=\sqrt{45}=3\sqrt5$. Therefore the parallelogram area is $3\sqrt5$ and the triangle area is
+Its length is
 
 $$
-\frac12\,3\sqrt5=\frac{3\sqrt5}{2}.
+A_{\mathrm{parallelogram}}=\sqrt{2^2+(-4)^2+5^2}=\sqrt{45}=3\sqrt5.
 $$
 
-The diagonal of a parallelogram made from the two side vectors divides it into two congruent triangles, which explains the factor $1/2$.
+For an independent arithmetic check, $p\cdot p=5$, $q\cdot q=14$, and $p\cdot q=5$, so
+
+$$
+\|p\times q\|^2=(p\cdot p)(q\cdot q)-(p\cdot q)^2=5(14)-25=45.
+$$
+
+The two sides span a parallelogram divided by a diagonal into two congruent triangles. Consequently the requested triangle has area
+
+$$
+A_{\mathrm{triangle}}=\frac12(3\sqrt5)=\frac{3\sqrt5}{2}.
+$$

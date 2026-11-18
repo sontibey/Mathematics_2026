@@ -1,5 +1,17 @@
 # Exercise 8. A Square Root in a Function Limit
 
+## Question
+
+Compute
+
+$$
+\lim_{x\to4}\frac{\sqrt{x}-2}{x-4}
+$$
+
+by rationalizing the numerator. Compare the idea with Exercise 3 involving a sequence.
+
+## Solution
+
 For $x\ge0$ and $x\ne4$, multiply by $\sqrt x+2$:
 
 $$

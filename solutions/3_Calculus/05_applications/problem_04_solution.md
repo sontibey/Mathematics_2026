@@ -1,5 +1,23 @@
 # Exercise 4. Area Between Curves
 
+## Question
+
+Find the area of the region bounded by the graphs
+
+$$
+y=x
+$$
+
+and
+
+$$
+y=x^2.
+$$
+
+First find the intersection points and justify which function is greater on the relevant interval.
+
+## Solution
+
 The intersections satisfy $x=x^2$, so $x=0,1$, giving $(0,0)$ and $(1,1)$. On $[0,1]$, $x-x^2=x(1-x)\ge0$, so the line is above the parabola. The area is
 
 $$

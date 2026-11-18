@@ -1,5 +1,17 @@
 # Exercise 8. Sphere
 
+## Question
+
+Reduce
+
+$$
+x^2+y^2+z^2-4x+2y-6z-2=0
+$$
+
+to canonical form. Find the center and radius. Give two points on the sphere and check them in the equation.
+
+## Solution
+
 $$
 (x-2)^2+(y+1)^2+(z-3)^2=16.
 $$

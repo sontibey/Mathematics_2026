@@ -1,25 +1,33 @@
+# Exercise 1. Antiderivative and Verification
+
 ## Question
 
-For $f(x)=3x^2-4x+5$, find one antiderivative and the entire family, verify it by differentiation, and explain the constant $C$.
+For
+
+$$
+f(x)=3x^2-4x+5
+$$
+
+find one antiderivative $F(x)$. Write the entire family of antiderivatives, verify the result by differentiation, and explain the meaning of the constant $C$.
 
 ## Solution
 
-Integrating term by term with the power rule gives
+An antiderivative must differentiate to the given polynomial. Each monomial can be treated separately because differentiation is linear. To obtain $3x^2$, choose $x^3$; to obtain $-4x$, choose $-2x^2$; to obtain the constant 5, choose $5x$. This constructs one candidate:
 
 $$
-F(x)=x^3-2x^2+5x
+F_0(x)=x^3-2x^2+5x.
 $$
 
-as one antiderivative. The full family is
+Check the candidate rather than assuming the reverse calculation is correct:
 
 $$
-F(x)=x^3-2x^2+5x+C,\qquad C\in\mathbb R.
+F_0'(x)=3x^2-4x+5.
 $$
 
-Differentiation verifies the result:
+Adding a constant changes the height of the graph but not its slope, so every function
 
 $$
-F'(x)=3x^2-4x+5=f(x).
+F(x)=x^3-2x^2+5x+C,\qquad C\in\mathbb R,
 $$
 
-The constant appears because every constant has derivative zero. Thus any two antiderivatives of the same function on an interval differ by a constant.
+has the required derivative on $\mathbb R$. This is the entire family: if $G$ is any other antiderivative, then $(G-F_0)'=0$ on $\mathbb R$. The mean value theorem implies that $G-F_0$ is constant. No initial value is given, so there is no condition selecting a particular $C$.

@@ -1,5 +1,23 @@
 # Exercise 3. The Product Rule — Why Is It Needed?
 
+## Question
+
+For
+
+$$
+f(x)=(x^2+1)e^x
+$$
+
+compute the derivative. Then compare the correct result with the incorrect idea
+
+$$
+f'(x)\stackrel{?}{=}(2x)e^x
+$$
+
+and explain which term is missing.
+
+## Solution
+
 The product rule differentiates each varying factor in turn:
 
 $$

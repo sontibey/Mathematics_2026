@@ -1,5 +1,15 @@
 # Exercise 10. A Cable Through Water and Land
 
+## Question
+
+Point $A$ lies on one bank of a river of width $100$ m, and point $B$ lies on the other bank, $500$ m along the bank from the point directly opposite $A$.
+
+The cost per meter of cable underwater is twice the cost per meter of cable on land.
+
+Build a cost function depending on the point where the cable comes out of the water, determine the domain, and find the solution that minimizes the cost.
+
+## Solution
+
 Assume straight parallel banks and a straight underwater segment from $A$ to an exit point on the opposite bank, followed by cable along that bank to $B$. Let $x$ be the exit displacement toward $B$ from the point directly opposite $A$, in meters, and let $c>0$ be the land cost per meter. For exits between those two points, $0\le x\le500$,
 
 $$

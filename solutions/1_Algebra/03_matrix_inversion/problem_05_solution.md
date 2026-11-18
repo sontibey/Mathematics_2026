@@ -1,5 +1,22 @@
 # Exercise 5. A 3×3 Matrix
 
+## Question
+
+Use Gauss–Jordan elimination to find the inverse of
+
+$$
+A=
+\begin{pmatrix}
+1 & 1 & 0 \\
+0 & 1 & 1 \\
+1 & 0 & 1 \\
+\end{pmatrix}.
+$$
+
+Check the result by multiplication.
+
+## Solution
+
 Begin with
 
 $$

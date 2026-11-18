@@ -1,25 +1,33 @@
+# Exercise 2. Distance as the Length of a Vector
+
 ## Question
 
-For $A=(1,2,3)$ and $B=(4,-2,6)$, construct $\overrightarrow{AB}$, compute its length and the point distance, and explain why the results agree.
+The points are $A=(1,2,3)$ and $B=(4,-2,6)$.
+
+1. Construct $\overrightarrow{AB}$.
+2. Compute its length.
+3. Compute the distance between the points using the coordinate formula.
+4. Explain why both calculations give the same result.
 
 ## Solution
 
-The displacement from $A$ to $B$ is
+The displacement must point from $A$ toward $B$, so subtract the starting coordinates from the ending coordinates:
 
 $$
-\overrightarrow{AB}=B-A=(3,-4,3).
+\overrightarrow{AB}=(4-1,-2-2,6-3)=(3,-4,3).
 $$
 
-Its length is
+A check on the direction is $A+\overrightarrow{AB}=(4,-2,6)=B$. Its length follows from the three-dimensional Pythagorean theorem:
 
 $$
-\|\overrightarrow{AB}\|=\sqrt{3^2+(-4)^2+3^2}=\sqrt{34}.
+\|\overrightarrow{AB}\|^2=3^2+(-4)^2+3^2=34,\qquad
+\|\overrightarrow{AB}\|=\sqrt{34}.
 $$
 
-The coordinate distance formula independently gives
+Calculating directly from the point-distance formula gives
 
 $$
-d(A,B)=\sqrt{(4-1)^2+(-2-2)^2+(6-3)^2}=\sqrt{34}.
+d(A,B)=\sqrt{(4-1)^2+(-2-2)^2+(6-3)^2}=\sqrt{9+16+9}=\sqrt{34}.
 $$
 
-These agree because Euclidean distance is defined as the length of the displacement vector joining the two points.
+These are two forms of the same geometry: the coordinate differences are the orthogonal components of the joining segment. Distance ignores its orientation; reversing the segment would negate the displacement but leave its length unchanged.

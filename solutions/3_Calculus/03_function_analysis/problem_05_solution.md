@@ -1,5 +1,17 @@
 # Exercise 5. An Exponential Function with a Maximum
 
+## Question
+
+Analyze the monotonicity and extrema of
+
+$$
+f(x)=xe^{-x}.
+$$
+
+Also examine the behavior as $x\to\infty$ and explain how the limit affects the shape of the graph on the right-hand side.
+
+## Solution
+
 $$
 f\prime(x)=e^{-x}(1-x).
 $$

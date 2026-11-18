@@ -1,5 +1,17 @@
 # Exercise 15. Complete Classification of a Line Relative to a Plane
 
+## Question
+
+Let
+
+$$
+L:p+tv,\qquad \Pi:n\cdot x=d.
+$$
+
+State the conditions distinguishing the three cases: one intersection point, parallel with no common points, and the line contained in the plane. Then illustrate each case with your own simple numerical example.
+
+## Solution
+
 Assume $v\ne0$ and $n\ne0$. Substitution into the plane gives $n\cdot p+t(n\cdot v)=d$.
 
 - If $n\cdot v\ne0$, there is exactly one intersection, at $t=(d-n\cdot p)/(n\cdot v)$.

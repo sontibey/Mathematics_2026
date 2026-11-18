@@ -1,5 +1,25 @@
 # Exercise 11. When Do Matrices Commute?
 
+## Question
+
+Given
+
+$$
+A=
+\begin{pmatrix}
+1 & 1 \\
+0 & 1 \\
+\end{pmatrix},\qquad B=
+\begin{pmatrix}
+a & b \\
+c & d \\
+\end{pmatrix}.
+$$
+
+Find the conditions on $a,b,c,d$ under which $AB=BA$. Describe the general form of all such matrices $B$.
+
+## Solution
+
 $$
 AB=\begin{pmatrix}
 a+c & b+d \\

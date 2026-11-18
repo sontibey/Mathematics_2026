@@ -1,5 +1,17 @@
 # Exercise 6. Shifted Ellipse
 
+## Question
+
+Reduce
+
+$$
+4x^2+9y^2-16x+18y-11=0
+$$
+
+to canonical form. Give the center and semiaxis lengths. Check that substituting the coordinates of the center into the left-hand side gives a value consistent with the form you obtained.
+
+## Solution
+
 $$
 4(x-2)^2+9(y+1)^2=36,\qquad \frac{(x-2)^2}{9}+\frac{(y+1)^2}{4}=1.
 $$

@@ -1,5 +1,15 @@
 # Exercise 11. Choose the Method First
 
+## Question
+
+For each integral, first write which method you choose and how you recognize it, and then compute:
+
+1. $\int\sin(3x)\,dx$,
+2. $\int x\ln x\,dx$,
+3. $\int\frac{x}{\sqrt{x^2+1}}\,dx$.
+
+## Solution
+
 **1. Substitution:** the sine argument is linear. Put $u=3x$, $du=3\,dx$:
 
 $$

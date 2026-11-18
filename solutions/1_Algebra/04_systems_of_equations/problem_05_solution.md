@@ -1,5 +1,21 @@
 # Exercise 5. Row Echelon Form and Number of Solutions
 
+## Question
+
+For the augmented matrix
+
+$$
+\begin{pmatrix}
+1 & 2 & -1 & \mid & 3 \\
+0 & 1 & 2 & \mid & 1 \\
+0 & 0 & 0 & \mid & 0 \\
+\end{pmatrix}
+$$
+
+determine the number of solutions and write them in parametric form. Explain how you know how many variables may be chosen freely.
+
+## Solution
+
 There are two pivot columns among three variables, with no contradiction row. Thus one variable is free. Put $z=s$; the second row gives $y=1-2s$, and the first gives $x=3-2y+z=1+5s$.
 
 $$

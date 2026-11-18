@@ -1,5 +1,17 @@
 # Exercise 7. A Trigonometric Function
 
+## Question
+
+On $[0,2\pi]$, find the intervals of monotonicity and the extrema of
+
+$$
+f(x)=\sin x+\cos x.
+$$
+
+Include the endpoints of the interval and compare the function values at the critical points and at the endpoints.
+
+## Solution
+
 $$
 f\prime(x)=\cos x-\sin x=0\quad\Longleftrightarrow\quad x=\pi/4,5\pi/4\qquad(0<x<2\pi).
 $$

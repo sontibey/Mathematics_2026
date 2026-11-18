@@ -1,5 +1,17 @@
 # Exercise 10. Complete Function Analysis
 
+## Question
+
+Perform a complete analysis of
+
+$$
+f(x)=\frac{x}{x^2+1}.
+$$
+
+Include the domain, symmetry, zeros, limits, monotonicity, extrema, and convexity. Finally, produce a sketch based only on this information.
+
+## Solution
+
 The domain is $\mathbb R$; the function is odd, with only zero $(0,0)$. At $-\infty$ and $+\infty$, it tends to $0^-$ and $0^+$ respectively, so $y=0$ is a horizontal asymptote and there are no vertical asymptotes.
 
 $$

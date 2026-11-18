@@ -1,5 +1,19 @@
 # Exercise 5. Distance from Velocity
 
+## Question
+
+The velocity of a car during the first five seconds is described by the function
+
+$$
+v(t)=4t+2\quad [\mathrm{m/s}].
+$$
+
+Compute the distance traveled and explain why the integral of velocity gives the change in position.
+
+Then answer what would have to be changed in the reasoning if the velocity also took negative values.
+
+## Solution
+
 Velocity is positive throughout $0\le t\le5$, so distance equals displacement:
 
 $$

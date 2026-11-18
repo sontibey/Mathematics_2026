@@ -1,5 +1,11 @@
 # Exercise 8. Determinant of a Product
 
+## Question
+
+Let $A,B$ be square matrices such that $\det A=3$ and $\det B=-5$. Compute $\det(AB)$, $\det(BA)$ and, if it exists, $\det(A^{-1}B)$. Explain why the first two results are equal even though usually $AB\neq BA$.
+
+## Solution
+
 Assume $A$ and $B$ have the same square size, as required by the products. Multiplicativity gives
 
 $$

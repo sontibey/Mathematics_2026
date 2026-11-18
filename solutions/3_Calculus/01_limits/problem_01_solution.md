@@ -1,5 +1,17 @@
 # Exercise 1. Dominant Terms in a Sequence
 
+## Question
+
+Compute
+
+$$
+\lim_{n\to\infty}\frac{4n^2-3n+1}{2n^2+5n-7}.
+$$
+
+Explain why the highest-degree terms determine the result.
+
+## Solution
+
 Divide numerator and denominator by $n^2$:
 
 $$

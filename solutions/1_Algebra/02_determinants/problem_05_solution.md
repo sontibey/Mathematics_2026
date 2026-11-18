@@ -1,5 +1,22 @@
 # Exercise 5. Row Operations
 
+## Question
+
+For
+
+$$
+A=
+\begin{pmatrix}
+1 & 2 & 3 \\
+2 & 1 & 0 \\
+-1 & 4 & 2 \\
+\end{pmatrix}
+$$
+
+find $\det A$ by simplifying the matrix with row operations. At each step, indicate whether and how the determinant changes.
+
+## Solution
+
 Each operation below adds a multiple of another row, so each preserves the determinant. First use $R_2\leftarrow R_2-2R_1$:
 
 $$

@@ -1,5 +1,17 @@
 # Exercise 11. An n-th Root
 
+## Question
+
+Compute
+
+$$
+\lim_{n\to\infty}\sqrt[n]{5^n+2^n}.
+$$
+
+Explain which term dominates and why the transformation looks different from the case of a quotient of polynomials.
+
+## Solution
+
 $$
 \sqrt[n]{5^n+2^n}=5\left(1+(2/5)^n\right)^{1/n}.
 $$

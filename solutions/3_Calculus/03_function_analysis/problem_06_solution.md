@@ -1,5 +1,17 @@
 # Exercise 6. A Logarithmic Function
 
+## Question
+
+Analyze the domain, zero, and monotonicity of
+
+$$
+f(x)=\ln x-x+1.
+$$
+
+Explain why the analysis must begin with the domain.
+
+## Solution
+
 The real domain is $(0,\infty)$, because the logarithm is defined only for positive arguments. All subsequent calculations must respect this restriction.
 
 $$

@@ -1,5 +1,13 @@
 # Exercise 15. Observation Versus Proof
 
+## Question
+
+Choose one sequence and one function from this set. For the sequence, compute several values for increasingly large $n$. For the function, prepare a table of values with arguments approaching the limit point from the left and right. Sketch the behavior of both objects.
+
+Compare the observation with the analytical result and explain why a finite number of calculations or a sketch does not constitute a proof that the limit exists.
+
+## Solution
+
 Choose the sequence from Exercise 3 and the function from Exercise 8. The analytical limits are $5/2$ and $1/4$, proved there by rationalization.
 
 | $n$ | $\sqrt{n^2+5n}-n$ |

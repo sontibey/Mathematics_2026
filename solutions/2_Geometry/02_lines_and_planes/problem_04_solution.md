@@ -1,5 +1,17 @@
 # Exercise 4. Plane Through Three Points
 
+## Question
+
+Find the equation of the plane through
+
+$$
+A=(1,0,0),\quad B=(0,1,0),\quad C=(0,0,1).
+$$
+
+First construct two vectors lying in the plane, and then use the cross product. Check the resulting equation on all three points.
+
+## Solution
+
 Two in-plane vectors are $B-A=(-1,1,0)$ and $C-A=(-1,0,1)$. Their cross product is $(1,1,1)$, a nonzero normal. Therefore
 
 $$

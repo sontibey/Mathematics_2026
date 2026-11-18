@@ -1,5 +1,17 @@
 # Exercise 8. The Second Derivative
 
+## Question
+
+For
+
+$$
+f(x)=x^4-4x^2
+$$
+
+find the local extrema, intervals of convexity and concavity, and inflection points. Sketch the graph and mark all the identified features on it.
+
+## Solution
+
 $$
 f\prime(x)=4x(x^2-2),\qquad f\prime\prime(x)=12x^2-8.
 $$

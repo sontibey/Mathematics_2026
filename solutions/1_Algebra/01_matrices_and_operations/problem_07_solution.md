@@ -1,5 +1,27 @@
 # Exercise 7. Identity Matrix, Zero Matrix, and Powers
 
+## Question
+
+For
+
+$$
+A=
+\begin{pmatrix}
+2 & 1 \\
+0 & 2 \\
+\end{pmatrix}
+$$
+
+compute
+
+$$
+AI,\qquad IA,\qquad A+0,\qquad A^2,\qquad A^3.
+$$
+
+Explain the roles of the matrices $I$ and $0$, and describe the pattern you observe in successive powers of $A$.
+
+## Solution
+
 Here $I$ and $0$ are the $2\times2$ identity and zero matrices. The identity leaves multiplication unchanged on either side; the zero matrix leaves addition unchanged.
 
 $$

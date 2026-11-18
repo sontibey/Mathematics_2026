@@ -1,25 +1,25 @@
+# Exercise 3. Vector Normalization
+
 ## Question
 
-Normalize $v=(3,4)$, check the unit length, reconstruct $v$, and explain what normalization changes.
+For $v=(3,4)$ find a unit vector $e$ with the same direction and orientation. Check that $\|e\|=1$, reconstruct $v$ in the form $v=\|v\|e$, and explain what changes during normalization and what remains unchanged.
 
 ## Solution
 
-First, $\|v\|=\sqrt{3^2+4^2}=5$. Dividing by this positive length gives the unit vector
+To retain direction and orientation, look for $e=\lambda v$ with a positive scalar $\lambda$. Since $\|v\|=\sqrt{3^2+4^2}=5$, the requirement $\|e\|=\lambda\|v\|=1$ determines $\lambda=1/5$. Thus
 
 $$
-e=\frac{v}{\|v\|}=\left(\frac35,\frac45\right).
+e=(3/5,4/5).
 $$
 
-Indeed,
+Check the unit-length condition and recovery of the original vector separately:
 
 $$
-\|e\|=\sqrt{\frac9{25}+\frac{16}{25}}=1,
+e\cdot e=\frac9{25}+\frac{16}{25}=1,\qquad \|e\|=1,
 $$
 
-and reconstruction yields
-
 $$
-\|v\|e=5\left(\frac35,\frac45\right)=(3,4)=v.
+\|v\|e=5(3/5,4/5)=(3,4)=v.
 $$
 
-Normalization changes the length to one while preserving the direction and orientation because division is by the positive scalar $5$.
+Normalization changes the magnitude from 5 to 1. It preserves the line of action and orientation because the scale factor is positive. A negative factor would reverse the orientation and would not meet the question's requirement.

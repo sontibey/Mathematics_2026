@@ -1,5 +1,11 @@
 # Exercise 2. A Parabola from the Perspective of the Derivative
 
+## Question
+
+For $f(x)=x^2-4x+1$, find the minimum using the derivative. Compare the result with the vertex form and explain why both approaches lead to the same point.
+
+## Solution
+
 $$
 f\prime(x)=2x-4.
 $$

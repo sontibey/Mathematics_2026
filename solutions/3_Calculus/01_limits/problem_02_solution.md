@@ -1,5 +1,17 @@
 # Exercise 2. Different Growth Rates
 
+## Question
+
+Compute
+
+$$
+\lim_{n\to\infty}\frac{3n+1}{n^2+4},\qquad \lim_{n\to\infty}\frac{2n^3-n}{5n^2+1}.
+$$
+
+Compare the two cases and formulate a general observation about the degrees of the polynomials in the numerator and denominator.
+
+## Solution
+
 $$
 \frac{3n+1}{n^2+4}=\frac{3/n+1/n^2}{1+4/n^2}\longrightarrow0.
 $$

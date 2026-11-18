@@ -1,5 +1,17 @@
 # Exercise 10. The Tangent Line as an Application of the Derivative
 
+## Question
+
+For
+
+$$
+f(x)=x^2-3x+1
+$$
+
+find the equation of the tangent line at the point with $x=2$. Give the point of tangency, the value $f'(2)$, the equation of the line, and verify that the point lies on the obtained tangent line.
+
+## Solution
+
 $$
 f(2)=-1,\qquad f\prime(x)=2x-3,\qquad f\prime(2)=1.
 $$

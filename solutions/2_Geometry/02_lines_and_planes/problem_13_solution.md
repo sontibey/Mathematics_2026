@@ -1,5 +1,11 @@
 # Exercise 13. Closest Point on a Plane
 
+## Question
+
+Find the point on the plane $x+2y+2z=4$ closest to $P=(3,0,0)$. Give the distance and check that the segment joining the two points is perpendicular to the plane.
+
+## Solution
+
 For $n=(1,2,2)$, $\|n\|^2=9$ and $n\cdot P-4=-1$. The projection is
 
 $$
